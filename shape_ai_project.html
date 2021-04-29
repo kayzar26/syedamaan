@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Resume</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: sans-serif;
+            margin: 0px;
+            padding: 0px;
+        }
+        #navbar{
+            height: 7vh;
+            width: 100%;
+            position: relative;
+        }
+
+        nav{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            position: fixed;    
+            top:-25px;
+            left: 0;   
+            }
+            ul{
+                list-style: none;
+                display: flex;
+            }
+            a{
+                text-decoration: none;
+            }
+            .ul li a{
+                height: 40px;
+                line-height: 43px;
+                margin: 3px;
+                padding: 0px 18px;
+                display: flex;
+                font-size: 10px;
+                font-weight: 500;
+                text-transform: uppercase;
+                color: rgb(46, 46, 46);
+            }
+            .hey{
+                font-size: 0.8em;
+                font-weight: 500;
+                color: rgb(32, 32, 32);
+            }
+            .rock img{
+                height: 700px;
+            }
+            .rock{
+                display: flex;
+                padding: 70px;
+            }
+            h1{
+                font-family: 'Times New Roman';
+                position: relative;
+                top: 60px;
+                left: 10px;
+                justify-content: center;
+                font-size: 3em;
+            }
+            p{
+                position: relative;
+                bottom: -60px;
+                left: 10px;
+                font-size: 0.8em;
+            }
+             .rock span{
+                 text-align: center;
+             }
+             button{
+                 position: relative;
+                 top: 80px;
+                 left: 70px;
+                 cursor: pointer;
+                 background-color: tomato;
+                 font-family: cursive;
+                 border-radius: 10px;
+                 color: rgb(248, 248, 248);
+             }
+
+    </style>
+</head>
+<body>
+    <section id="navbar"> 
+    <nav id="nav">
+        <a href="#" class="logo">
+            <img src="favsdakld.png" width="40px" height="40px" alt="error">
+                </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <ul type="circle" class="ul">
+            <li class="li"><a href="#">Home</a></li>&nbsp;
+            <li class="li"><a href="#">Skills</a></li>&nbsp;
+            <li class="li"><a href="#">Recents</a></li>&nbsp;
+            <li class="li"><a href="#">Clients</a></li>&nbsp;
+            <li class="li"><a href="#">Contacts</a></li>
+        </ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#" class="hey">SAY HI</a>
+    </nav>
+    </section>
+    <div class="rock">
+        <div>
+        <img src="5ae57fc30cf70b16e50532a2423ca891.jpg" alt="rock">
+    </div>
+        <div>
+        <h1>HELLO,   I AM THE ROCK</h1>
+        <p>Hey, In this video i am gonna show you how to create a responsive personal website using HTML and CSS only</p>
+        <button>SEE MY PORTFOLIO</button>
+    </div>
+</div>
+</body>
+</html>
